@@ -5,7 +5,7 @@
     <groupId>com.altamash</groupId>
     <artifactId>EXPT-5-ALTAMASH</artifactId>
     <version>1.0-SNAPSHOT</version>
-    <packaging>jar</packaging>
+    <packaging>war</packaging>
 
     <name>EXPT-5-ALTAMASH</name>
     <description>GitHub repo for CI/CD experiment using Jenkins and Maven</description>
