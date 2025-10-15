@@ -1,18 +1,8 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0"
-<<<<<<< HEAD
-            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-            xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 
+                            http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <groupId>com.altamash</groupId>
-    <artifactId>EXPT-5-ALTAMASH</artifactId>
-    <version>1.0-SNAPSHOT</version>
-    <packaging>war</packaging>
-=======
-            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-            xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 
-                                http://maven.apache.org/xsd/maven-4.0.0.xsd">
-    <modelVersion>4.0.0</modelVersion>
->>>>>>> a5ac39c (Fixed pom.xml and added web.xml for WAR build)
 
     <groupId>com.altamash</groupId>
     <artifactId>EXPT-5-ALTAMASH</artifactId>
@@ -20,17 +10,17 @@
     <packaging>war</packaging>
 
     <build>
-    <finalName>EXPT-5-ALTAMASH</finalName>
-    <plugins>
-        <plugin>
-        <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-war-plugin</artifactId>
-        <version>3.4.0</version>
-        <configuration>
-            <failOnMissingWebXml>true</failOnMissingWebXml>
-        </configuration>
-        </plugin>
-    </plugins>
+        <finalName>EXPT-5-ALTAMASH</finalName>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-war-plugin</artifactId>
+                <version>3.4.0</version>
+                <configuration>
+                    <failOnMissingWebXml>true</failOnMissingWebXml>
+                </configuration>
+            </plugin>
+        </plugins>
     </build>
 
 </project>
